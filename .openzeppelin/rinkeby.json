@@ -1,0 +1,231 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xb48F91557ab0D9eD66Ed682363F1112368554E1e",
+    "txHash": "0xaddd60098fae004b57f959ab2b7eaee9c107b2b47aaa679c12ee108abec94653"
+  },
+  "proxies": [
+    {
+      "address": "0x631B989AC32059C8924b160be7631D820B97b856",
+      "txHash": "0x9d256cf7a97675bbea29162cc163598a0199428c8a8071017edfda856386168d",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "abeb700a27f4ff51a8bc22dbc4197ec700adb54780371e967d1c162b90ec3dac": {
+      "address": "0x51850BEF19AF17217BD41508e9E5f90Ac252a6ef",
+      "txHash": "0x856182405a81393bf13e2c8d803793eae92a1254adc8edeaf1a6659200217aa3",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_balances",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:37"
+          },
+          {
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:39"
+          },
+          {
+            "label": "_totalSupply",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_uint256",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:41"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:43"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:44"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_array(t_uint256)45_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:394"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "finalTotalSupply",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_uint256",
+            "contract": "BugagaToken",
+            "src": "contracts/BugagaToken.sol:10"
+          },
+          {
+            "label": "presaleMaxSupply",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_uint256",
+            "contract": "BugagaToken",
+            "src": "contracts/BugagaToken.sol:11"
+          },
+          {
+            "label": "ownershipMaxPercentage",
+            "offset": 0,
+            "slot": "153",
+            "type": "t_uint256",
+            "contract": "BugagaToken",
+            "src": "contracts/BugagaToken.sol:12"
+          },
+          {
+            "label": "presaleCounter",
+            "offset": 0,
+            "slot": "154",
+            "type": "t_uint256",
+            "contract": "BugagaToken",
+            "src": "contracts/BugagaToken.sol:14"
+          },
+          {
+            "label": "presaleCost1",
+            "offset": 0,
+            "slot": "155",
+            "type": "t_uint256",
+            "contract": "BugagaToken",
+            "src": "contracts/BugagaToken.sol:15"
+          },
+          {
+            "label": "presaleCost2",
+            "offset": 0,
+            "slot": "156",
+            "type": "t_uint256",
+            "contract": "BugagaToken",
+            "src": "contracts/BugagaToken.sol:16"
+          },
+          {
+            "label": "stage",
+            "offset": 0,
+            "slot": "157",
+            "type": "t_bool",
+            "contract": "BugagaToken",
+            "src": "contracts/BugagaToken.sol:18"
+          },
+          {
+            "label": "pauseStage",
+            "offset": 1,
+            "slot": "157",
+            "type": "t_bool",
+            "contract": "BugagaToken",
+            "src": "contracts/BugagaToken.sol:19"
+          },
+          {
+            "label": "userStatus",
+            "offset": 0,
+            "slot": "158",
+            "type": "t_mapping(t_address,t_uint8)",
+            "contract": "BugagaToken",
+            "src": "contracts/BugagaToken.sol:20"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]",
+            "numberOfBytes": "1440"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint8)": {
+            "label": "mapping(address => uint8)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
